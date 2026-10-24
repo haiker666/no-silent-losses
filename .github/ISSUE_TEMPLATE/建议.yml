@@ -1,0 +1,36 @@
+name: 建议：补充场景、话术或新条目
+description: 书里缺一块，或者有更好的写法
+title: "[建议] "
+labels: ["建议"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        写之前请先看仓库里 CONTRIBUTING.md 的"内容红线"和"来源规则"。
+        不收：教人转移财产、诬告威胁、侵犯隐私的内容，以及没有官方依据的数字。
+  - type: dropdown
+    id: kind
+    attributes:
+      label: 你想补充什么
+      options:
+        - 一个新的场景或新条目
+        - 一段可以直接照着说的话
+        - 新出的司法解释或政策
+        - 一个官方公布的典型案例
+        - 文书模板
+        - 网页版或计算器的改进
+        - 其他
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: 具体内容
+      description: 尽量写清楚：哪一章、哪一条、你想怎么改
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: 官方依据
+      description: 法条、司法解释或官方案例的链接

@@ -1,0 +1,37 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+Copyright (c) 2026 《看清再爱：男性婚恋法律与财产护身指南》 contributors
+
+The text of this work (everything under book/, appendix/, docs/ and src/,
+and the prose of README.md and CONTRIBUTING.md) is licensed under the
+Creative Commons Attribution 4.0 International License.
+
+You are free to:
+  - Share: copy and redistribute the material in any medium or format
+  - Adapt: remix, transform, and build upon the material
+    for any purpose, even commercially.
+
+Under the following terms:
+  - Attribution: you must give appropriate credit, provide a link to the
+    license, and indicate if changes were made. You may do so in any
+    reasonable manner, but not in any way that suggests the licensor
+    endorses you or your use.
+  - No additional restrictions: you may not apply legal terms or
+    technological measures that legally restrict others from doing
+    anything the license permits.
+
+Full license text:
+  https://creativecommons.org/licenses/by/4.0/legalcode
+Human-readable summary:
+  https://creativecommons.org/licenses/by/4.0/
+
+本作品的文字部分（book/、appendix/、docs/、src/ 下的内容，以及
+README.md、CONTRIBUTING.md 的行文）采用「知识共享 署名 4.0 国际许可协议」
+（CC BY 4.0）发布。你可以自由地转载、改编、商用，但需要署名、注明来源、
+注明是否做过修改。完整法律文本见上面的链接。
+
+免责声明：本书是一般性的法律信息，不构成法律意见，不能替代律师对具体案件的
+分析。详见 README.md 的"声明"一节。
+
+The code (tools/ and the page script in index.html) is licensed separately
+under the MIT License, see LICENSE-CODE.

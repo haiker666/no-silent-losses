@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1200px;height:630px;overflow:hidden}
+body{position:relative;font-family:-apple-system,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Noto Sans CJK SC",sans-serif;
+  color:#1b1f23;background:#fff}
+.bg{position:absolute;inset:0;
+  background:
+   radial-gradient(900px 420px at 100% 0%,rgba(15,107,107,.13),transparent 70%),
+   radial-gradient(700px 380px at 0% 100%,rgba(165,106,0,.10),transparent 70%),
+   linear-gradient(#fff,#fff)}
+.grid{position:absolute;inset:0;opacity:.5;
+  background-image:linear-gradient(#0f6b6b0d 1px,transparent 1px),linear-gradient(90deg,#0f6b6b0d 1px,transparent 1px);
+  background-size:40px 40px}
+.bar{position:absolute;left:0;right:0;top:0;height:8px;background:linear-gradient(90deg,#0f6b6b,#3aa39a 55%,#c98a1a)}
+.wrap{position:absolute;left:84px;top:78px;right:84px}
+.brand{display:flex;align-items:center;gap:16px;font-size:26px;font-weight:600;color:#59616b;letter-spacing:.02em}
+.logo{width:50px;height:50px;border-radius:13px;background:#0f6b6b;display:flex;align-items:center;justify-content:center}
+h1{margin-top:44px;font-size:84px;line-height:1.16;font-weight:800;letter-spacing:-.01em}
+h1 em{font-style:normal;color:#0f6b6b}
+.topics{margin-top:34px;font-size:30px;color:#6a727c;letter-spacing:.01em}
+.pills{margin-top:38px;display:flex;gap:12px;flex-wrap:nowrap}
+.pill{font-size:22px;font-weight:600;padding:9px 19px;white-space:nowrap;border-radius:999px;background:#f1f1ef;color:#555d66;border:1px solid #e3e1dc}
+.pill b{font-weight:800;color:#1b1f23;margin:0 4px}
+.pill.p1{background:#dff0ef;color:#0f6b6b;border-color:#c5e2e0}.pill.p1 b{color:#0f6b6b}
+.pill.p2{background:#e4f3ea;color:#1d7a46;border-color:#cce6d7}.pill.p2 b{color:#1d7a46}
+</style></head>
+<body>
+<div class="bg"></div><div class="grid"></div><div class="bar"></div>
+<div class="wrap">
+  <div class="brand">
+    <div class="logo">
+      <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M12 3l7.5 2.8v5.6c0 4.6-3 8.2-7.5 9.6-4.5-1.4-7.5-5-7.5-9.6V5.8L12 3z"/><path d="M8.6 12.2l2.5 2.5 4.6-5"/>
+      </svg>
+    </div>
+    <span>不吃哑巴亏指南 · 男性婚恋护身之书</span>
+  </div>
+  <h1>恋爱、结婚、离婚，<br><em>别再吃说不出口的亏</em></h1>
+  <div class="topics">彩礼 · 同居 · 婚前协议 · 婚后财产 · 离婚官司 · 抚养权 · 刑事红线</div>
+  <div class="pills">
+    <span class="pill p1"><b>{{TOTAL}}</b>篇指南</span>
+    <span class="pill p2">A 级<b>{{GA}}</b>篇</span>
+    <span class="pill"><b>13</b>个最高法案例</span>
+    <span class="pill"><b>{{NAPP}}</b>份文书与附录</span>
+    <span class="pill">可搜索 · 含计算器</span>
+  </div>
+</div>
+</body></html>

@@ -1,0 +1,51 @@
+name: 勘误：法条、条号、数字或口径有误
+description: 书里写错了，或者你所在法院的做法和书里不一样
+title: "[勘误] "
+labels: ["勘误"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        谢谢你。请尽量提供**官方依据**：法条原文链接（国家法律法规数据库、最高人民法院官网），或具体的裁判文书。
+        公众号、自媒体文章不能作为依据，但可以作为线索一并附上。
+  - type: input
+    id: entry
+    attributes:
+      label: 条目编号
+      description: 例如 063，或"附录 G"
+      placeholder: "063"
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: 哪一类问题
+      options:
+        - 法条或司法解释的条号写错
+        - 法条内容理解有误
+        - 数字（金额、比例、期限）有误
+        - 法律已经修订，内容过时
+        - 我所在地区的口径不同
+        - 官方案例的转述有误
+        - 错别字或表述问题
+        - 其他
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: 书里是怎么写的，你认为应该是什么
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: 你的依据
+      description: 官方文本链接、条号、裁判文书案号，或你所在地法院的做法
+    validations:
+      required: true
+  - type: input
+    id: region
+    attributes:
+      label: 所在地区（如与地区口径有关）
+      placeholder: "例：广东省深圳市"
